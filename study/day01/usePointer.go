@@ -28,6 +28,7 @@ func main() {
 	*s1 = "指针赋值"
 	fmt.Println(s1)  //这里输出的是指针的地址
 	fmt.Println(*s1) //这里输出的是指针的值
+
 }
 
 func modifyUsePoint(ptr *int) {
